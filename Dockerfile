@@ -8,4 +8,3 @@ ENV PATH=/var/www/app/node_modules/.bin:$PATH
 RUN mkdir -p /var/www/app/src
 WORKDIR /var/www/app/src
 COPY src .
-EXPOSE 3000
